@@ -1,3 +1,4 @@
 FROM nginx:latest
 EXPOSE 80
-COPY . /var/www/html/examadmit.info
+COPY . /usr/share/nginx/html
+# COPY . /var/www/html/examadmit.info
